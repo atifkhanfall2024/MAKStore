@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Contact Form</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+
+</head>
+<body>
+  
+      
+        <div style="box-shadow: 2px 3px 4px 4px #222;" id="nextnav">
+            <h2><span>MAK</span>Store</h2>
+            <div id="homenav">
+                <a href="#home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Product">Product</a>
+                <a href="contact.html">Contact</a>
+              <div id="addcarto">  <a href="cart.html"><i class="ri-shopping-cart-fill">&nbsp; <span id="atif">0</span></i></a></div>
+
+        </div>
+    </div>
+    <div id="main">
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.588200749594!2d71.48306597465846!3d34.00310967317552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d9172ebe9aaad1%3A0x74de395b0ec3efb!2sUniversity%20of%20Engineering%20and%20Technology%2C%20Peshawar!5e0!3m2!1sen!2s!4v1724008718332!5m2!1sen!2s" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+      <div id="contacttext">
+
+            <h2>Get in touch</h2>
+            <h4>Do you have a project in your mind, contact me here</h4>
+
+            
+      </div>
+      <div id="myform">
+        <form  action="https://formspree.io/f/xkgwvnar"
+        method="POST">
+            <div class="name">
+     
+              Full Name:  <input type="text" placeholder="Enter your fullname" id="fullname" name="fullname" required  autocomplete="off">
+            </div>
+            
+            <div class="name">
+                &nbsp; &nbsp; &nbsp;   Email:
+                &nbsp; &nbsp; <input type="email" id="email" placeholder="Enter your Email" name="email"   required autocomplete="off">
+            </div>
+            
+            <div class="name">
+                &nbsp;  Subject:
+                &nbsp; &nbsp;  <input type="text" id="subject" name="subject" placeholder="Enter your subject" required autocomplete="off">
+            </div>
+            
+            <div id="message">
+             <h3> Message:</h3>
+             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea autocomplete="off">
+            </div>
+            
+            <div>
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
+          
+    </div>
+      
+    </div>
+    <script src="contact.js"></script>
+</body>
+</html>

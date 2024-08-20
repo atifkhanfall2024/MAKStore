@@ -1,0 +1,954 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    outline: none;
+    border: none;
+}
+html   , body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #dadada;
+}
+#main{
+   
+    overflow: hidden;
+}
+#navigation{
+    height: 22vh;
+    width: 100vw;
+  
+   
+}
+#topnav{
+    height: 8vh;
+    width: 100vw;
+    background-color: #22222294;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+   
+}
+#topnav p{
+    opacity: .7;
+    font-size: 15px;
+}
+#topnav a{
+    text-decoration: none;
+    margin-left: 30px ;
+    height: 30px;
+    width:70px ;
+    text-align: center;
+    background-color: rgba(40, 16, 199, 0.639);
+    color:#fff ;
+    border-radius: 20px;
+     border: 2px solid white;
+}
+#anchors{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+   
+}
+
+#nextnav{
+    height: 12vh;
+    width:  100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+ box-shadow: 2px 3px 4px 3px #222;
+
+ 
+}
+#nextnav h2{
+    letter-spacing: 3px;
+    font-size: 2.5vw;
+    font-weight: 700;
+    border: 2px solid #222;
+    border-radius: 10px;
+}
+#nextnav h2 span{
+
+    letter-spacing: 3px;
+    font-size: 2.5vw;
+    font-weight: 700;
+    border: 2px solid #222;
+    color: #fff;
+    background-color: #222;
+    border-radius: 7px;
+}
+#homenav{
+    display: flex;
+    gap: 40px;
+ 
+}
+#homenav a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #222;
+   
+}
+#homenav a:hover{
+    transform: translateY(-6px);
+    border-bottom: 1px solid #222;
+    transition: all ease-in 1s;
+}
+#homenav i{
+    height: 25px;
+    width: 60px;
+    border-radius: 20px;
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    background-color: #222;
+    color: #fff;
+}
+#homenav i:hover{
+    cursor: pointer;
+     background-color: #fff;
+     color: #222;
+     border: 1px solid #222;
+     transition: all cubic-bezier(0.23, 1, 0.320, 1) 3s;
+}
+.custom-shape-divider-bottom-1723552915 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1723552915 svg {
+    position: relative;
+    display: block;
+    width: calc(110% + 1.3px);
+    height: 149px;
+}
+
+.custom-shape-divider-top-1723553110 .shape-fill {
+    fill: #FFFFFF;
+}.custom-shape-divider-bottom-1723552915 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1723552915 svg {
+    position: relative;
+    display: block;
+    width: calc(110% + 1.3px);
+    height: 149px;
+}
+
+.custom-shape-divider-bottom-1723552915 .shape-fill {
+    fill: #FFFFFF;
+}
+#home{
+    position: relative;
+    height: 150vh;
+    width: 150vw;
+         overflow: hidden;
+}
+#circles{
+    height: 70vh;
+    width: 100vw;
+    position: relative;
+      
+    overflow: hidden;
+    border-bottom: 1px solid #222;
+}
+
+#blue{
+    position: absolute;
+     height: 10vw;
+     width: 10vw;
+   
+     background-color: #222;
+     top: 150%;
+     left: 48%;
+     transform: translate(-50% , -50%);
+     border-radius: 50%;
+}
+#black
+{
+    position: absolute;
+    height: 10vw;
+    width: 10vw;
+    background-color: rgba(0, 191, 255, 0.514);
+
+    top: 150%;
+    left: 55%;
+    transform: translate(-50% , -50%);
+    border-radius: 50%; 
+}
+#circles img{
+    position: absolute;
+    right: -50%;
+    z-index: 9999;
+    top: 120%;
+    opacity: 0;
+}
+#hometext{
+    position: absolute;
+    top: 0%;
+    left: -50%;
+    z-index: 999999;
+    opacity: 0;
+}
+#hometext h4{
+    font-weight: 400;
+    color: blue;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#hometext h2{
+    font-size: 30px;
+    font-weight: 800;
+    color: blue;
+    margin-bottom: 10px;
+}
+#hometext p{
+    width: 50%;
+    color: #fff;
+    margin-bottom: 25px;
+}
+#hometext a , button{
+    padding: 1vh 4vw;
+    color: #fff;
+   
+}
+#buttoon{
+    background-color: #222;
+    border-radius: 10px;
+}
+#hometext #buttoon:hover{
+    background-color: #fff;
+    color: #222;
+    border: 1px solid #222;
+    transition: all cubic-bezier(0.23, 1, 0.320, 1) 3s;
+}
+#discounts{
+  position: relative; 
+    margin-left: 190px;
+    margin-top: -80px;
+   display: flex;
+   gap: 35px;
+    height: 35vh;
+    border-radius: 20px;
+    width: 65vw;
+   
+}
+ .disc{
+    user-select: none;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 1px 3px 4px 3px #2222229a;
+    border-radius: 20px;
+     
+    height: 35vh;
+    width: 20vw;
+    background-color: #dadada;
+}
+#discounts :hover{
+   background-color: #fff;
+   transition: all ease-in 1s;
+   scale: 1.1;
+}
+.disc img{
+    height: 60%;
+    width: 60%;
+    object-fit: cover;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+.textt{
+    overflow: hidden;
+    position: absolute;
+    top: 8%;
+    left: 4%;
+}
+.textt h3{
+   font-weight: 600;
+   margin-bottom: 10px;
+}
+.textt h5{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.textt a{
+    color: #222;
+}
+#gurrentee{
+    display: flex;
+   
+    height: 15vh;
+    width: 65vw;
+
+  margin-top: 25px;
+  margin-left: 180px;
+  border-radius: 20px;
+  box-shadow: 1px 3px 4px 3px #2222229a;
+  gap: 20px;
+    
+}
+.gurrcard{
+    position: relative;
+    border-radius: 10px;
+   overflow: hidden;
+    height: 100%;
+    width: 24%;
+    background-color: #dadada;
+    border-right: 1px solid #222;
+   
+}
+.gurrcard img{
+  
+    height: 100%;
+    width: 40%;
+    border-radius: 10px;
+   
+  
+}
+.guutext{
+    
+   position: absolute;
+   top: 5%;
+   left: 50%;
+}
+.guutext h5{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.guutext h6{
+    font-weight: 400;
+}
+
+#products{
+    border-top: 1px solid #222;
+    position: relative;
+    height: 225vh;
+    width: 150vw;
+    overflow: hidden;
+    
+}
+#imageee h2{
+    font-size: 25px;
+    font-weight: 600;
+   text-align: center;
+  position: absolute;
+  left: 27%;
+ 
+   color: #fff;
+  
+}
+
+#cards{
+    overflow: hidden;
+      position: relative;
+      height: 220vh;
+      width: 90vw;
+      display: flex;
+      align-items: center;
+     
+   flex-wrap: wrap;
+      gap: 20px;
+      margin-left: 50px;
+   
+
+
+}
+.card{
+    overflow: hidden;
+    display: flex;
+   position: relative;
+    border-radius: 20px;
+    height: 75vh;
+    width: 20vw;
+   margin-left: 100px;
+   margin-top: 50px;
+    background-color: #dadada;
+    box-shadow: 1px 3px 4px 3px #2222229a;
+
+}
+#cardtext{
+    position: absolute;
+   
+}
+#cardtext h4{
+   
+      position: absolute;
+      top: 2%;
+      
+   
+    margin-left: 30px;
+   
+    border-radius: 10px;
+    text-align: center;
+}
+#imageee{
+    position: relative;
+}
+#imageee h2{
+    margin-top: 40px;
+    letter-spacing: 2px;
+    background-color: #222222b6;
+    margin-left: -20px;
+}
+#imageee img{
+    position: absolute;
+    left: 3%;
+    height: 20vh;
+    object-fit: cover;
+    width: 90vw;
+    z-index: -99999;
+}
+#cardtext img{
+    height: 30%;
+    width: 60%;
+    object-fit: cover;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#cardtext h2{
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+#cardtext h6{
+    font-weight: 500;
+    margin-left: 20px;
+}
+#buttton{
+   background-color: #dadada;
+  
+    width:  8.2vw;
+    height: 4.8vh;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+     transform: translate(130% , -120%);
+}
+#cardtext .btn1{
+    padding: 0vh .8vw;
+    height: 4vh;
+    color: #222;
+    cursor: pointer;
+}
+#cardtext .buttton .counting{
+    font-size: 20px;
+}
+#cardtext .btn2{
+    cursor: pointer;
+    height: 4vh;
+    padding: 0vh .8vw;
+    color: #222;
+}
+#cardtext h5{
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#cardtext h6{
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+}
+#cardtext #add_cart{
+    background-color: #222;
+  transform: translate(0% , -110%);
+    margin-left: 25px;
+    border-radius: 20px;
+  
+}
+#cardtext #add_cart button{
+ 
+}
+#cardtext #add_cart:hover{
+    background-color: #fff;
+    color: #222;
+    border: 1px solid #222;
+    transition: all cubic-bezier(0.23, 1, 0.320, 1) 3s;
+}
+#cardtext #icons{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+ 
+}
+#icons i {
+  
+    color: gray; /* Initial color for the icons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 20px; /* Adjust icon size if needed */
+}
+ #icons i.active {
+    color: gold; /* Color to change to when clicked */
+}
+
+#content{
+    overflow: hidden;
+    position: relative;
+    height: 150vh;
+    width: 100vw;
+   
+}
+#contentmain h2{
+    position: absolute;
+    letter-spacing: 2px;
+    top: 8%;
+    left: 25%;
+    color: #fff;
+    background-color: #22222288;
+    width: 50vw;
+    font-size: 30px;
+    font-weight: 700;
+}
+#contentmain img{
+    position: absolute;
+    left: 5%;
+  height: 40vh;
+  border-radius: 20px;
+  object-fit: cover;
+  z-index: -999999;
+  width: 90vw;
+}
+#circleimg{
+  position: absolute;
+  top: 0%;
+  opacity: 0;
+  left: 50%;
+  transform: translate(-50% , -50%);
+    height: 25vw;
+    border-radius: 50%;
+    width: 25vw;
+    background-image: url(https://th.bing.com/th/id/R.22a952145b87318bfe3f151c5f8acb6f?rik=oaY6dpZQrkw1Qg&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-position: center;
+}
+#contenttext{
+display: flex;
+
+gap: 120px;
+position: relative;
+top: 35%;
+left:28%
+
+}
+
+.contentleft p{
+    margin-bottom: 10px;
+    margin-left: 80px;
+    height: 2vw;
+    width: 2vw;
+    background-color: rgba(0, 191, 255, 0.514);
+    color: blue;
+text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.contentleft h2{
+    
+    font-weight: 600;
+    
+}
+.contentleft h6{
+    margin-left: -140px;
+    margin-top: 10px;
+    width: 45%;
+    font-size: 11px;
+    opacity: .8;
+}
+#nexttext{
+    display: flex;
+  
+    gap: 50px;
+    position: relative;
+    top: 45%;
+    left:20%  
+}
+.contentleft p{
+    margin-bottom: 10px;
+    margin-left: 80px;
+    height: 2vw;
+    width: 2vw;
+    background-color: rgba(0, 191, 255, 0.514);
+    color: blue;
+text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.contentleft h2{
+    
+    font-weight: 600;
+    
+}
+#nexttext  .contentleft h6{
+    margin-left: -80px;
+    margin-top: 10px;
+    width: 45%;
+    font-size: 11px;
+    opacity: .8;
+}
+#contact{
+    position: relative;
+    height: 40vh;
+    width: 80vw;
+    box-shadow: 1px 3px 4px 3px #2222229a;
+    border-radius: 20px;
+    margin-left: 100px;
+    background: linear-gradient(to right ,  rgba(0, 191, 255, 0.514) , rgba(0, 191, 255, 0.53) ,#fff);
+}
+#cntcttext{
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+#cntcttext h5{
+    letter-spacing: 3px;
+    font-size: 1vw;
+    font-weight: 700;
+    width: 10%;
+    border: 2px solid #222;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#cntcttext h5 span{
+
+    letter-spacing: 3px;
+    font-size: 1vw;
+    font-weight: 700;
+    border: 2px solid #222;
+    color: #fff;
+    background-color: #222;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+#cntcttext img{
+    height: 20%;
+    width: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+#shopping{
+    display: flex;
+    position: relative;
+    top: 18%;
+    left: 2%;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.shop h4{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.shop{
+    margin: 10px;
+}
+.shop h5{
+    margin-bottom: 7px;
+}
+#news{
+    width: 30%;
+    position: absolute;
+    right: 0%;
+    top: 23%;
+   ;
+}
+#news h4{
+    margin-left: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#news input{
+    background: linear-gradient(to right ,  rgba(0, 191, 255, 0.514) , rgba(0, 191, 255, 0.53) ,#fff);
+  margin-top: 10px;
+  border: 2px solid rgb(23, 23, 26);
+  border-radius: 10px;
+    color: #dadada;
+
+}
+#news h6{
+    margin-left: 165px;
+    margin-top: -25px;
+   
+    font-weight: 600;
+    font-size: 12px;
+    height: 25px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    width: 40px;
+    background-color: #222;
+}
+#contact>h4{
+    position: absolute;
+   bottom: 2%;
+   left: 28%;
+   background-color: #dadada;
+   border: 2px solid black;
+   border-radius: 10px;
+   box-shadow: 1px 3px 4px 3px #2222229a;
+
+}
+#overlay{
+   position: absolute;
+    height: 4%;
+    width: 15%;
+   left: 50%;
+    top: 52%;
+    background-color: #222;
+    border-radius: 10px;
+    opacity: 0;
+  
+}
+#overlay>h5{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: -20px;
+}
+
+
+.cardo{
+    overflow: hidden;
+    display: flex;
+    
+   position: relative;
+    border-radius: 20px;
+    height: 20vh;
+    width: 70vw;
+   margin-left: 100px;
+   margin-top: 10px;
+    background-color: #dadada;
+    box-shadow: 1px 3px 4px 3px #2222229a;
+
+}
+#cardtextt{
+    position: absolute;
+   
+}
+#cardtextt h4{
+   
+      position: absolute;
+      top: 8%;
+      
+   
+    margin-left: 20px;
+   
+    border-radius: 10px;
+    text-align: center;
+}
+#cardtextt img{
+    height: 10%;
+    width: 20%;
+    object-fit: cover;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+#addtocart{
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+   padding: 40px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  
+
+
+}
+
+.cart_items{
+    border-radius: 10px;
+display: flex;
+align-items: center;
+height: 10%;
+width: 80%;
+
+box-shadow:1px 3px 4px 3px #2222229a ;
+
+}
+
+.cart_items #bname {
+   
+    margin-left: 10px;
+    font-weight: 700;
+   
+}
+#cart_image img{
+    height: 30%;
+    width: 30%;
+    object-fit: cover;
+}
+.cart_items h3{
+    position: absolute;
+    left: 32%;
+    font-weight: 700;
+}
+.cart_items #pname{
+    position: absolute;
+    left: 32%;
+     margin-top: 70px;
+    font-weight: 700;
+}
+.cart_items h5{
+    font-weight: bold;
+    position: absolute;
+    left: 47%;
+    margin-top: 10px;
+}
+
+#butttoon{
+    background-color: #dadada;
+   
+     width:  8.2vw;
+     height: 4.8vh;
+     display: flex;
+     gap: 15px;
+     align-items: center;
+      transform: translate(80% , 10%);
+ }
+ #butttoon #btn1{
+    padding: 0vh .8vw;
+    height: 4vh;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #222;
+    cursor: pointer;
+}
+ #butttoon #countting{
+    font-size: 20px;
+}
+#butttoon #btn2{
+    cursor: pointer;
+    height: 4vh;
+    padding: 0vh .8vw;
+    color: #fff;
+    background-color: #222;
+    border-radius: 5px;
+   
+}
+#remove{
+    position: absolute;
+    right: 15%;
+    padding: 1vh 2vw;
+    color: #fff;
+    background-color: #222;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#remove:hover{
+    cursor: pointer;
+    color: #222;
+    background-color: #fff;
+    border: 2px solid #222;
+}
+#butttoon  #btn1:hover{
+    cursor: pointer;
+    color: #222;
+    background-color: #fff;
+    border: 2px solid #222;
+}
+#butttoon  #btn2:hover{
+    cursor: pointer;
+    color: #222;
+    background-color: #fff;
+    border: 2px solid #222;
+}
+#total_check{
+    position: absolute;
+    box-shadow:1px 3px 4px 3px #2222229a ;
+    width: 40%;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 35%;
+   
+
+}
+#total_check h3{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#total_check h3 span{
+    font-weight: 700;
+}
+#update{
+    background-color: #222;
+    padding: 2vh 7vw;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-bottom: 10px;
+
+}
+#update:hover{
+    background-color:white;
+    cursor: pointer;
+    transition: 2s ease-in-out;
+    color: #222;
+    border: 2px solid #222;
+    border-radius: 20px;
+}
+#checkout{
+    background-color: #222;
+    padding: 2vh 7vw;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+#checkout:hover{
+    background-color:white;
+    cursor: pointer;
+    transition: 2s ease-in-out;
+    color: #222;
+    border: 2px solid #222;
+    border-radius: 20px;
+}
+#download{
+    background-color: #222;
+    padding: 2vh 7vw;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-bottom: 10px;
+   
+
+}
+#download:hover{
+    background-color:white;
+    cursor: pointer;
+    transition: 2s ease-in-out;
+    color: #222;
+    border: 2px solid #222;
+    border-radius: 20px;
+}
+#prose{
+    font-weight: 600;
+}
